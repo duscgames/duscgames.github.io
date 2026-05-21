@@ -1,2 +1,165 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DUSC G2011 GA · Game Reports</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #1f6feb;
+      --accent-hover: #388bfd;
+      --navy: #0a3069;
+      --navy-light: #1f4080;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .crest {
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    header p {
+      font-size: .85rem;
+      color: var(--muted);
+      margin-top: .15rem;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+
+    h2 {
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .game-list {
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+    }
+
+    .game-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    .game-card:hover {
+      border-color: var(--accent-hover);
+      box-shadow: 0 0 0 1px var(--accent-hover);
+    }
+
+    .game-date {
+      min-width: 90px;
+      font-size: .8rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .game-teams {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .team-pill {
+      display: inline-block;
+      padding: .2rem .6rem;
+      border-radius: 4px;
+      font-size: .85rem;
+      font-weight: 700;
+    }
+
+    .vs {
+      font-size: .75rem;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .game-score {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .arrow {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="crest">⚽</div>
+  <div>
+    <h1>DUSC G2011 GA</h1>
+    <p>Game reports</p>
+  </div>
+</header>
+
+<main>
+  <h2>Matches</h2>
+  <div class="game-list">
+
+    <a class="game-card" href="ga2011-vs-risurf-4-20-2026/game_report.html">
+      <div class="game-date">Apr 20, 2026</div>
+      <div class="game-teams">
+        <span class="team-pill" style="background:#0a3069;color:#fff">G2011 GA</span>
+        <span class="vs">vs</span>
+        <span class="team-pill" style="background:#8b1a1a;color:#fff">RI SURF</span>
+      </div>
+      <div class="game-score">0 – 3</div>
+      <div class="arrow">›</div>
+    </a>
+
+  </div>
+</main>
+
+</body>
 </html>
