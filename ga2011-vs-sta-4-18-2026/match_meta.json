@@ -1,0 +1,442 @@
+{
+  "audio_status": "removed",
+  "camera": "9d72f015-25dc-493d-82fd-98d95aad1aca",
+  "club": {
+    "slug": "downtown-united-soccer-club",
+    "title": "DUSC",
+    "permissions": {
+      "teams.update_club": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.update_club_highlight_tags": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.read_club_highlight_tags": {
+        "permitted": true
+      }
+    },
+    "country": {
+      "code": "US",
+      "name": "United States of America"
+    },
+    "crest": "https://assets.app.veo.co/crests/downtown-united-soccer-club/dusc-logo-2015.png",
+    "short_name": "DSC",
+    "id": "07e7991f-e705-4e47-be03-1878e8422a50",
+    "external_id_dbu": null
+  },
+  "created": "2026-04-19T00:45:19.226862+02:00",
+  "duration": 5945,
+  "end": "2026-04-18T17:11:41.392010+02:00",
+  "expiration_status": "does-not-expire",
+  "expires_at": null,
+  "external_id_dbu_club": null,
+  "external_id_dbu_match": null,
+  "external_id_dbu_pool": null,
+  "has_analytics_enabled": true,
+  "has_events_enabled": true,
+  "has_momentum_data": false,
+  "has_playermoments_enabled": true,
+  "has_tracking_data": false,
+  "id": "0b7b9b24-2301-41b1-af77-107f911d1927",
+  "identifier": "0b7b9b24-2301-41b1-af77-107f911d1927",
+  "info": {
+    "stats": {
+      "score": {
+        "own": null,
+        "opponent": null
+      },
+      "score_aggregated": {
+        "own": 0,
+        "opponent": 4
+      },
+      "table": [
+        "FootballGoal",
+        "FootballShot",
+        "TotalAttempts",
+        "FootballCornerKick",
+        "FootballFreeKick",
+        "FootballThrowIn",
+        "FootballFoul",
+        "FootballPenaltyKick",
+        "PassesCompleted",
+        "PossessionPercent",
+        "PossessionMinutes",
+        "PossessionWon"
+      ]
+    },
+    "age_group": "U15"
+  },
+  "is_accessible": true,
+  "is_paid_for_storage_minutes": true,
+  "is_paid_for_upload_minutes": true,
+  "is_shared_recording": false,
+  "opponent_club_name": "STA",
+  "opponent_short_name": "",
+  "opponent_short_name_display": "STA",
+  "opponent_team_color": "black",
+  "opponent_team_formation": "4-3-3",
+  "opponent_team_formation_name": "4-3-3",
+  "opponent_team_name": "",
+  "own_team_color": "white",
+  "own_team_formation": "3-5-2",
+  "own_team_formation_name": "3-5-2",
+  "own_team_home_or_away": "home",
+  "permissions": {
+    "matches.create_match__shareinvitation": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.destroy_match": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.download_match": {
+      "permitted": true
+    },
+    "matches.read_match__shareinvitations": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.update_match": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.share_match_social": {
+      "permitted": true
+    },
+    "analysis.read_match_analysis": {
+      "permitted": true
+    },
+    "analysis.read_match_heatmap": {
+      "permitted": true
+    },
+    "analysis.read_match_momentum": {
+      "permitted": true
+    },
+    "analysis.read_match_playerphysicalstats": {
+      "permitted": true
+    },
+    "analysis.read_match_radar": {
+      "permitted": true
+    },
+    "analysis.read_match_stats": {
+      "permitted": true
+    },
+    "analysis.read_match_shotmap": {
+      "permitted": true
+    },
+    "analysis.read_match_passstrings": {
+      "permitted": true
+    },
+    "analysis.read_match_passlocations": {
+      "permitted": true
+    },
+    "analysis.read_match_possessionlocations": {
+      "permitted": true
+    },
+    "analysis.read_match_scoreboard": {
+      "permitted": true
+    },
+    "analysis.read_match_formguide": {
+      "permitted": true
+    },
+    "analysis.read_match_playermoments": {
+      "permitted": true
+    },
+    "matches.access_zola_admin": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.create_match_viewcount": {
+      "permitted": true
+    },
+    "matches.create_match__highlight": {
+      "permitted": true
+    },
+    "matches.download_highlight": {
+      "permitted": true
+    },
+    "matches.read_match__periods": {
+      "permitted": true
+    },
+    "matches.read_match_journal": {
+      "permitted": true
+    },
+    "matches.remove_audio_match__videos": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.resolve_aihighlight": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.restore_match_video": {
+      "permitted": true
+    },
+    "matches.update_match_journal": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.read_match__lineup": {
+      "permitted": true
+    },
+    "matches.update_match__lineup": {
+      "permitted": true
+    },
+    "matches.create_match__lineupplayer": {
+      "permitted": true
+    },
+    "matches.read_match__lineupplayer": {
+      "permitted": true
+    },
+    "matches.destroy_match__lineupplayer": {
+      "permitted": true
+    },
+    "matches.create_match_events": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.read_match_events": {
+      "permitted": true
+    },
+    "matches.update_match_events": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.destroy_match_events": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.read_match__video_mode_followcam": {
+      "permitted": true
+    },
+    "matches.read_match__video_mode_interactive": {
+      "permitted": true
+    },
+    "matches.read_match__video_mode_panorama": {
+      "permitted": true
+    },
+    "matches.create_match__highlight_followcam": {
+      "permitted": true
+    },
+    "matches.create_match__highlight_interactivecam": {
+      "permitted": true
+    },
+    "matches.read_match_timeline": {
+      "permitted": true
+    },
+    "matches.access_annotation_tools": {
+      "permitted": true
+    },
+    "matches.read_match__bookmark": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.update_match__bookmark": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.destroy_match__bookmark": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "coach_assist.create_match__generation": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "coach_assist.view_match__generation": {
+      "permitted": true
+    },
+    "coach_assist.create_run": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    },
+    "matches.read_recording__cornerselection": {
+      "permitted": false,
+      "reason": [
+        "permission"
+      ]
+    }
+  },
+  "privacy": "public",
+  "processing_status": {},
+  "reel_url": null,
+  "slug": "20260418-match-apr-18-2026-v30e00e2",
+  "sport": "football",
+  "sport_name": "Football",
+  "start": "2026-04-18T12:00:00+02:00",
+  "tactics": [],
+  "tactics_info": [],
+  "team": {
+    "id": "a9bdb43c-555b-4c26-8ab6-1d2cf135c135",
+    "match_count": 27,
+    "member_count": 32,
+    "user_member": {
+      "id": "e6ba8003-41e8-4296-849b-55a4ef883282",
+      "name": "Ada Dabek",
+      "team_role": "player",
+      "player_id": null,
+      "initials": "AD",
+      "status": "active",
+      "permission_role": "viewer",
+      "avatar": "",
+      "user_id": "1f223633-8ff3-4413-a09b-349f66ef212d"
+    },
+    "name": "G2011 GA",
+    "permissions": {
+      "teams.update_team": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.update_team_crest": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.update_team_header_image": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.destroy_team": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.create_teamroleinvitation": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.update_teammember_permission_role": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.destroy_teammember": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "teams.read_team__members": {
+        "permitted": true
+      },
+      "teams.read_team__recordings": {
+        "permitted": true
+      },
+      "coach_assist.personalize_team_assistant": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      },
+      "coach_assist.create_run": {
+        "permitted": false,
+        "reason": [
+          "permission"
+        ]
+      }
+    },
+    "short_name": "",
+    "short_name_display": "DSC",
+    "recordings_expiring_soon_count": 1,
+    "recordings_expired_count": 12,
+    "default_own_color": "navy",
+    "default_opponent_color": "",
+    "speed_zones": [
+      {
+        "zone": 1,
+        "name": "Walking",
+        "lower_bound_kmh": 0.0,
+        "upper_bound_kmh": 7.0
+      },
+      {
+        "zone": 2,
+        "name": "Jogging",
+        "lower_bound_kmh": 7.0,
+        "upper_bound_kmh": 13.0
+      },
+      {
+        "zone": 3,
+        "name": "Running",
+        "lower_bound_kmh": 13.0,
+        "upper_bound_kmh": 19.0
+      },
+      {
+        "zone": 4,
+        "name": "HSR",
+        "lower_bound_kmh": 19.0,
+        "upper_bound_kmh": 23.0
+      },
+      {
+        "zone": 5,
+        "name": "Sprint",
+        "lower_bound_kmh": 23.0,
+        "upper_bound_kmh": null
+      }
+    ],
+    "hsr_threshold_kmh": 19.0,
+    "sprint_threshold_kmh": 23.0,
+    "slug": "g2011-blue-66afde7b",
+    "image": null,
+    "header_image": null,
+    "url": "/clubs/downtown-united-soccer-club/teams/g2011-blue-66afde7b/",
+    "gender": "female",
+    "age_group": "U15",
+    "privacy": null
+  },
+  "thumbnail": "https://c.veocdn.com/0b7b9b24-2301-41b1-af77-107f911d1927/standard/machine/af18732b/thumbnail.jpg",
+  "time_to_expiry": null,
+  "title": "2011 GA V STA",
+  "type": "league",
+  "type_name": "League",
+  "upload_minutes_consumed_on": "2026-04-19T00:54:35.227219+02:00",
+  "url": "/matches/20260418-match-apr-18-2026-v30e00e2/",
+  "view_count": 79
+}

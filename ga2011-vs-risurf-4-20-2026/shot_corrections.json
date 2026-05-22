@@ -1,0 +1,8 @@
+[
+  {"event_id": "2d661642-47e3-11f1-bd65-4f1e5624df27", "correct_jersey": 13},
+  {"event_id": "2d694c4a-47e3-11f1-bd65-7bb072ae2e17", "correct_jersey": 13},
+  {"event_id": "2d4afa7e-47e3-11f1-bd65-a7083dedc117", "correct_jersey": 11},
+  {"event_id": "2d4cd484-47e3-11f1-bd65-f77ea0386ad5", "correct_jersey": 34},
+  {"event_id": "2d7b5cd2-47e3-11f1-bd65-bf8fe43dae6a", "correct_jersey": 34},
+  {"event_id": "manual-0001", "correct_jersey": 13}
+]

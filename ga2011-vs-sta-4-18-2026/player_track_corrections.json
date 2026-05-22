@@ -1,0 +1,22 @@
+[
+  {"track_id": 49,  "correct_jersey": 25},
+  {"track_id": 55,  "correct_jersey": 25},
+  {"track_id": 87,  "correct_jersey": 25},
+  {"track_id": 183, "correct_jersey": 25},
+  {"track_id": 432, "correct_jersey": 25},
+  {"track_id": 501, "correct_jersey": 25},
+  {"track_id": 519, "correct_jersey": 25},
+  {"track_id": 524, "correct_jersey": 25},
+  {"track_id": 532, "correct_jersey": 25},
+  {"track_id": 92,  "correct_jersey": 34},
+  {"track_id": 210, "correct_jersey": 34},
+  {"track_id": 186, "correct_jersey": 27},
+  {"track_id": 212, "correct_jersey": 27},
+  {"track_id": 540, "correct_jersey": 27},
+  {"track_id": 462, "correct_jersey": 39},
+  {"track_id": 527, "correct_jersey": 39},
+  {"track_id": 179, "correct_jersey": 41},
+  {"track_id": 555, "correct_jersey": 4},
+  {"track_id": 194, "correct_jersey": 8},
+  {"track_id": 156, "correct_jersey": 1}
+]

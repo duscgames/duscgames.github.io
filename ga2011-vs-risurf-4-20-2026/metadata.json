@@ -1,0 +1,18 @@
+{
+  "recording_url": "https://app.veo.co/matches/20260420-match-2-may-2026-v447df63/",
+  "recording_id": "69e1b8c2-1dfa-439a-a541-c88848c04703",
+  "video_url": "https://c.veocdn.com/69e1b8c2-1dfa-439a-a541-c88848c04703/standard/machine/4f3171b9/video.mp4?v=OyQIVved",
+  "source": "veo_scraper",
+  "sample_fps": 10,
+  "total_sampled_frames": 56509,
+  "pitch_length_m": 91.5,
+  "pitch_width_m": 55.0,
+  "analytics": {
+    "id": "69e1b8c2-1dfa-439a-a541-c88848c04703",
+    "ball-tracking": "succeeded",
+    "player-tracking": "completed",
+    "event-detection": "completed",
+    "match-details": "completed",
+    "shot-details": "completed"
+  }
+}

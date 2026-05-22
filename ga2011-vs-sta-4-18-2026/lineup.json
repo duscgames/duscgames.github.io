@@ -1,0 +1,9 @@
+{
+  "formation": "5-3-2",
+  "rows": [
+    {"label": "GK",  "jerseys": [1]},
+    {"label": "DEF", "jerseys": [25, 3, 4, 6, 39]},
+    {"label": "MID", "jerseys": [8, 34, 13]},
+    {"label": "FWD", "jerseys": [14, 11]}
+  ]
+}
