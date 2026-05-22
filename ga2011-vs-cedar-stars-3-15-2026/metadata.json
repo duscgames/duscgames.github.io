@@ -1,0 +1,17 @@
+{
+  "recording_url": "https://app.veo.co/matches/20260315-dusc-2-match-2011g-ga-u15s-girls-ga-vs-dusc-2-v546ec21/",
+  "recording_id": "41a52955-0df0-4d5b-a058-8ff3f2b88068",
+  "video_url": "https://c.veocdn.com/1e4bcd01-9fe1-4ef8-a06d-b002297e6cc6/standard/machine/836fa1b1/video.mp4?v=CpcBQbUf",
+  "source": "veo_scraper",
+  "pitch_length_m": 109.0,
+  "pitch_width_m": 68.0,
+  "analytics": {
+    "id": "41a52955-0df0-4d5b-a058-8ff3f2b88068",
+    "ball-tracking": "completed",
+    "player-tracking": "completed",
+    "event-detection": "completed",
+    "match-details": "completed",
+    "shot-details": "completed",
+    "duplicate-of": "1e4bcd01-9fe1-4ef8-a06d-b002297e6cc6"
+  }
+}
