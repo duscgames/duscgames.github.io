@@ -1,0 +1,182 @@
+[
+  {
+    "url": "https://app.veo.co/api/app/auth/waffle-json/",
+    "status": 200,
+    "size": 2341,
+    "preview": "{\"FLAGS\":[\"money-team-may-2026-campaign-enabled\",\"money-team-checkout-enabled\",\"quote-builder-discount-products\",\"club-plan-data\",\"money-team-team-plan-recording-hours-override-enabled\",\"money-team-payment-overdue-banner-enabled\",\"money-team-payment-overdue-admin-banner-enabled\",\"money-team-replace-family-with-starter-enabled\",\"money-team-rev-api-billing-account-enabled\",\"money-team-support-revenue-platform-subscriptions\",\"money-team-ecom-promo-discounts-enabled\",\"money-team-switch-to-cc-first-o"
+  },
+  {
+    "url": "https://app.veo.co/api/app/user/",
+    "status": 200,
+    "size": 1133,
+    "preview": "{\"age\":null,\"avatar\":null,\"bio\":null,\"birthday\":null,\"email\":\"ada2bek@gmail.com\",\"favourite_position\":null,\"id\":\"1f223633-8ff3-4413-a09b-349f66ef212d\",\"first_name\":\"Ada\",\"last_name\":\"Dabek\",\"name\":\"Ada Dabek\",\"nationality\":null,\"preferred_foot\":null,\"preferred_jersey_number\":null,\"slug\":null,\"user_display\":\"Ada Dabek\",\"initials\":\"AD\",\"source\":\"join-team\",\"is_signup_complete\":true,\"club_can_create_matches_for_count\":0,\"club_count\":1,\"club_follower\":[\"ad98d478-4f70-4247-bc33-f28930f9ee87\",\"0efa561"
+  },
+  {
+    "url": "https://app.veo.co/api/app/leagues/member/",
+    "status": 200,
+    "size": 26,
+    "preview": "{\"is_league_member\":false}"
+  },
+  {
+    "url": "https://app.veo.co/api/app/users/1f223633-8ff3-4413-a09b-349f66ef212d/showcase/?fields=created&fields=highlight&fields=highlight__duration&fields=highlight__id&fields=highlight__match&fields=highlight__privacy&fields=highlight__thumbnail&fields=highlight__videos",
+    "status": 200,
+    "size": 2,
+    "preview": "[]"
+  },
+  {
+    "url": "https://app.veo.co/api/app/clubs/?fields=crest&fields=slug&fields=name&fields=url&fields=is_club_admin&fields=team_count&fields=id&fields=support_id&filter=own&page_size=500",
+    "status": 200,
+    "size": 314,
+    "preview": "[{\"crest\":\"https://assets.app.veo.co/crests/downtown-united-soccer-club/dusc-logo-2015.png\",\"id\":\"07e7991f-e705-4e47-be03-1878e8422a50\",\"is_club_admin\":false,\"name\":\"Downtown United Soccer Club\",\"slug\":\"downtown-united-soccer-club\",\"support_id\":\"A0TYO\",\"team_count\":19,\"url\":\"/clubs/downtown-united-soccer-club/\"}]"
+  },
+  {
+    "url": "https://app.veo.co/api/app/i18n/lang/",
+    "status": 200,
+    "size": 555,
+    "preview": "{\"name\":\"Language\",\"description\":\"\",\"renders\":[\"application/json\"],\"parses\":[\"application/json\",\"application/x-www-form-urlencoded\",\"multipart/form-data\"],\"actions\":{\"POST\":{\"language\":{\"type\":\"choice\",\"required\":true,\"read_only\":false,\"label\":\"Language\",\"choices\":[{\"value\":\"en\",\"display_name\":\"English\"},{\"value\":\"de\",\"display_name\":\"Deutsch\"},{\"value\":\"fr\",\"display_name\":\"Français\"},{\"value\":\"es\",\"display_name\":\"Español\"},{\"value\":\"it\",\"display_name\":\"Italiano\"},{\"value\":\"pl\",\"display_name\":\""
+  },
+  {
+    "url": "https://app.veo.co/api/app/mentions/07e7991f-e705-4e47-be03-1878e8422a50/users/",
+    "status": 200,
+    "size": 9863,
+    "preview": "{\"users\":[{\"id\":\"1e61959b-1321-40e6-ad62-06801d679c93\",\"first_name\":\"Admin\",\"last_name\":\"DUSC\",\"team_memberships\":[{\"id\":\"1f0d6e10-7b2e-450e-a703-64c5bd3f4c30\",\"role\":\"coach\",\"team_id\":\"a9bdb43c-555b-4c26-8ab6-1d2cf135c135\"}],\"avatar_url\":null},{\"id\":\"a15dc7d3-2070-4eda-b982-ef8f00ae0ac8\",\"first_name\":\"A\",\"last_name\":\"Cario\",\"team_memberships\":[{\"id\":\"47fdcf9a-08ac-4b15-b85e-bbeceef94573\",\"role\":\"player\",\"team_id\":\"a9bdb43c-555b-4c26-8ab6-1d2cf135c135\"}],\"avatar_url\":null},{\"id\":\"5957080e-aa95-4"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/20260420-match-2-may-2026-v447df63/",
+    "status": 200,
+    "size": 7435,
+    "preview": "{\"audio_status\":\"removed\",\"camera\":\"14:ae:85:92:3b:e7\",\"club\":{\"slug\":\"downtown-united-soccer-club\",\"title\":\"DUSC\",\"permissions\":{\"teams.update_club\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.update_club_highlight_tags\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.read_club_highlight_tags\":{\"permitted\":true}},\"country\":{\"code\":\"US\",\"name\":\"United States of America\"},\"crest\":\"https://assets.app.veo.co/crests/downtown-united-soccer-club/dusc-logo-2015.png\",\"short_name\":\"DSC\",\"id\":\"0"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/69e1b8c2-1dfa-439a-a541-c88848c04703/feature-processing-status/",
+    "status": 200,
+    "size": 133,
+    "preview": "{\"followcam\":\"completed\",\"interactive\":\"completed\",\"ai_detection\":\"completed\",\"analytics\":\"completed\",\"player_spotlight\":\"completed\"}"
+  },
+  {
+    "url": "https://app.veo.co/api/app/i18n/lang/",
+    "status": 200,
+    "size": 555,
+    "preview": "{\"name\":\"Language\",\"description\":\"\",\"renders\":[\"application/json\"],\"parses\":[\"application/json\",\"application/x-www-form-urlencoded\",\"multipart/form-data\"],\"actions\":{\"POST\":{\"language\":{\"type\":\"choice\",\"required\":true,\"read_only\":false,\"label\":\"Language\",\"choices\":[{\"value\":\"en\",\"display_name\":\"English\"},{\"value\":\"de\",\"display_name\":\"Deutsch\"},{\"value\":\"fr\",\"display_name\":\"Français\"},{\"value\":\"es\",\"display_name\":\"Español\"},{\"value\":\"it\",\"display_name\":\"Italiano\"},{\"value\":\"pl\",\"display_name\":\""
+  },
+  {
+    "url": "https://dt3kfuz4eo879.cloudfront.net/recordings/69e1b8c2-1dfa-439a-a541-c88848c04703/events?type=step_event",
+    "status": 200,
+    "size": 11672,
+    "preview": "{\"version\":3.1,\"events\":[{\"name\":\"match_ongoing\",\"type\":\"step_event\",\"timestamp_start\":180.714,\"timestamp_end\":2580.978},{\"name\":\"match_ongoing\",\"type\":\"step_event\",\"timestamp_start\":3118.716,\"timestamp_end\":5552.347},{\"name\":\"ball_in_play\",\"type\":\"step_event\",\"timestamp_start\":180.447,\"timestamp_end\":220.087},{\"name\":\"ball_in_play\",\"type\":\"step_event\",\"timestamp_start\":237.971,\"timestamp_end\":261.328},{\"name\":\"ball_in_play\",\"type\":\"step_event\",\"timestamp_start\":271.605,\"timestamp_end\":332.732},"
+  },
+  {
+    "url": "https://app.veo.co/api/app/membership-requests/?team_id=a9bdb43c-555b-4c26-8ab6-1d2cf135c135",
+    "status": 200,
+    "size": 22,
+    "preview": "{\"items\":[],\"count\":0}"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/20260420-match-2-may-2026-v447df63/periods/",
+    "status": 200,
+    "size": 343,
+    "preview": "[{\"public_identifier\":\"41db0dbf-b654-4236-b06c-3b5cc78392a9\",\"timeframe\":[180,2580],\"own_side\":\"left\",\"name\":\"\",\"user_modified\":null,\"is_confirmed\":false,\"duration\":2400},{\"public_identifier\":\"5504712b-d4e0-444e-b019-46a1af0ff7b5\",\"timeframe\":[3118,5552],\"own_side\":\"right\",\"name\":\"\",\"user_modified\":null,\"is_confirmed\":false,\"duration\":2434}]"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/20260420-match-2-may-2026-v447df63/videos/",
+    "status": 200,
+    "size": 2169,
+    "preview": "[{\"availability\":\"available\",\"ball_corrections\":null,\"ball_detections\":null,\"bit_rate\":null,\"camera_directions\":\"https://c.veocdn.com/69e1b8c2-1dfa-439a-a541-c88848c04703/standard/machine/4f3171b9/detections_constrained.det\",\"created\":\"2026-05-04T19:39:48.668610+02:00\",\"height\":1080,\"identifier\":\"e3e944d7-e190-449a-ae16-4c8390170f1e\",\"mime_type\":\"video/mp4\",\"render_settings\":\"https://c.veocdn.com/69e1b8c2-1dfa-439a-a541-c88848c04703/panorama/camera_alignment-79deb989-0759-4017-a590-c975aa3d6817."
+  },
+  {
+    "url": "https://d3g8j1j1rf6msg.cloudfront.net/api/v1/69e1b8c2-1dfa-439a-a541-c88848c04703/match-events",
+    "status": 200,
+    "size": 81403,
+    "preview": "[{\"id\":\"2d1934e4-47e3-11f1-bd65-37cecb27c0d4\",\"creatorId\":null,\"matchId\":\"69e1b8c2-1dfa-439a-a541-c88848c04703\",\"recordingTimestamp\":180.714,\"type\":\"FootballKickOff\",\"period\":{\"number\":1,\"timestamp\":714},\"editorId\":null,\"location\":null,\"teamId\":null,\"playerId\":null},{\"id\":\"2d21f822-47e3-11f1-bd65-73b22e633c90\",\"creatorId\":null,\"matchId\":\"69e1b8c2-1dfa-439a-a541-c88848c04703\",\"recordingTimestamp\":751.284,\"type\":\"FootballThrowIn\",\"period\":{\"number\":1,\"timestamp\":571284},\"editorId\":null,\"location\":"
+  },
+  {
+    "url": "https://app.veo.co/api/app/clubs/downtown-united-soccer-club/?fields=is_club_admin",
+    "status": 200,
+    "size": 23,
+    "preview": "{\"is_club_admin\":false}"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/69e1b8c2-1dfa-439a-a541-c88848c04703/lineup/players/",
+    "status": 200,
+    "size": 2,
+    "preview": "[]"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/20260420-match-2-may-2026-v447df63/highlights/?fields=id&fields=ai_resolution&fields=created&fields=comment&fields=duration&fields=has_camera_directions&fields=involved_players&fields=is_ai_generated&fields=start&fields=tags&fields=modified&fields=should_render&include_ai=true",
+    "status": 200,
+    "size": 13072,
+    "preview": "[{\"created\":\"2026-05-04T19:58:32.340809+02:00\",\"duration\":25,\"id\":\"7c771d5a-e24f-4757-bc9b-574b922b3420\",\"start\":5495,\"ai_resolution\":1,\"comment\":null,\"has_camera_directions\":null,\"involved_players\":[],\"is_ai_generated\":true,\"modified\":\"2026-05-04T20:03:32.432278+02:00\",\"should_render\":true,\"tags\":[{\"name\":\"Goal\",\"slug\":\"goal\",\"origin\":\"1\",\"custom\":false}]},{\"created\":\"2026-05-04T19:58:32.340696+02:00\",\"duration\":25,\"id\":\"2dd1c049-14f9-43c9-ac91-ea7974613580\",\"start\":5494,\"ai_resolution\":1,\"comm"
+  },
+  {
+    "url": "https://dt3kfuz4eo879.cloudfront.net/recordings/69e1b8c2-1dfa-439a-a541-c88848c04703/analytics",
+    "status": 200,
+    "size": 188,
+    "preview": "{\"id\":\"69e1b8c2-1dfa-439a-a541-c88848c04703\",\"ball-tracking\":\"succeeded\",\"player-tracking\":\"completed\",\"event-detection\":\"completed\",\"match-details\":\"completed\",\"shot-details\":\"completed\"}"
+  },
+  {
+    "url": "https://app.veo.co/api/app/clubs/downtown-united-soccer-club/teams/g2011-blue-66afde7b/members/?status=active",
+    "status": 200,
+    "size": 4748,
+    "preview": "[{\"id\":\"47fdcf9a-08ac-4b15-b85e-bbeceef94573\",\"name\":\"A Cario\",\"team_role\":\"player\",\"player_id\":null,\"initials\":\"AC\",\"status\":\"active\",\"permission_role\":\"viewer\",\"avatar\":\"\",\"user_id\":\"a15dc7d3-2070-4eda-b982-ef8f00ae0ac8\"},{\"id\":\"bc53632c-71c3-4293-899d-420ab370b55d\",\"name\":\"Abby Kapur\",\"team_role\":\"player\",\"player_id\":null,\"initials\":\"AK\",\"status\":\"active\",\"permission_role\":\"viewer\",\"avatar\":\"\",\"user_id\":\"af99f717-ee21-49ab-b23c-11dc7dcfc370\"},{\"id\":\"e6ba8003-41e8-4296-849b-55a4ef883282\",\"name"
+  },
+  {
+    "url": "https://app.veo.co/api/app/clubs/downtown-united-soccer-club/teams/g2011-blue-66afde7b/?fields=permissions",
+    "status": 200,
+    "size": 1235,
+    "preview": "{\"permissions\":{\"teams.update_team\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.update_team_crest\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.update_team_header_image\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.destroy_team\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.create_teamroleinvitation\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.update_teammember_permission_role\":{\"permitted\":false,\"reason\":[\"permission\"]},\"teams.destroy_teammember\":{\"permitted\":fals"
+  },
+  {
+    "url": "https://d3g8j1j1rf6msg.cloudfront.net/api/v2/69e1b8c2-1dfa-439a-a541-c88848c04703/player-tracking/jersey-numbers?periods=180%2C2580&periods=3118%2C5552",
+    "status": 200,
+    "size": 257,
+    "preview": "[{\"left\":[3,4,5,6,7,8,11,13,14,15,18,23,25,28,34,39],\"right\":[2,3,4,7,8,9,10,15,16,18,21,23,31,33,34,55],\"start\":180,\"end\":2580},{\"left\":[1,3,4,7,9,10,15,16,18,21,23,31,33,34,55],\"right\":[2,3,4,6,8,11,13,14,15,18,23,25,28,34,35,39],\"start\":3118,\"end\":5552}]"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/20260420-match-2-may-2026-v447df63/views/",
+    "status": 202,
+    "size": 2,
+    "preview": "{}"
+  },
+  {
+    "url": "https://app.veo.co/api/app/clubs/downtown-united-soccer-club/teams/g2011-blue-66afde7b/members/?page=2&status=active",
+    "status": 200,
+    "size": 2828,
+    "preview": "[{\"id\":\"d84a1cf0-edc8-4449-b67f-a8a3b2bb84d1\",\"name\":\"Mia Martinez\",\"team_role\":\"player\",\"player_id\":null,\"initials\":\"MM\",\"status\":\"active\",\"permission_role\":\"viewer\",\"avatar\":\"\",\"user_id\":\"5f006a6b-0e14-4f25-a03a-7879c97200fe\"},{\"id\":\"80f6a28b-4911-4e39-aa29-c8d04a868d77\",\"name\":\"Mike Diegnan\",\"team_role\":\"other\",\"player_id\":\"65034479079ea7fb6e12dac6\",\"initials\":\"MD\",\"status\":\"active\",\"permission_role\":\"viewer\",\"avatar\":\"\",\"user_id\":\"699efad9-70f7-46b0-8934-1de450798001\"},{\"id\":\"ed1ffde4-1312-4"
+  },
+  {
+    "url": "https://dt3kfuz4eo879.cloudfront.net/recordings/69e1b8c2-1dfa-439a-a541-c88848c04703/match-details?filters=180,2580&filters=3118,5552",
+    "status": 200,
+    "size": 8272,
+    "preview": "[{\"start\":180,\"end\":2580,\"stats\":{\"PossessionSeconds\":{\"L\":428.795,\"R\":471.204},\"PassesCompleted\":{\"L\":87,\"R\":105},\"PossessionWon\":{\"L\":91,\"R\":92}},\"passStrings\":{\"L\":[[2,6],[3,4],[4,4],[6,1]],\"R\":[[2,10],[3,6],[5,2],[6,1],[7,1],[11,1]]},\"passLocations\":{\"L\":[{\"x\":0.62,\"y\":0.59},{\"x\":0.45,\"y\":0.43},{\"x\":0.55,\"y\":0.42},{\"x\":0.4,\"y\":0.31},{\"x\":0.5,\"y\":0.81},{\"x\":0.23,\"y\":0.86},{\"x\":0.68,\"y\":0.6},{\"x\":0.51,\"y\":0.48},{\"x\":0.53,\"y\":0.45},{\"x\":0.38,\"y\":0.36},{\"x\":0.45,\"y\":0.33},{\"x\":0.55,\"y\":0.63},{\"x"
+  },
+  {
+    "url": "https://app.veo.co/api/app/matches/20260420-match-2-may-2026-v447df63/highlights/?fields=id&fields=annotations&fields=creator&fields=permissions&fields=privacy&fields=reply_count&fields=team_association&fields=thumbnail&fields=videos&include_ai=true",
+    "status": 200,
+    "size": 34381,
+    "preview": "[{\"id\":\"7c771d5a-e24f-4757-bc9b-574b922b3420\",\"annotations\":null,\"creator\":null,\"permissions\":{\"matches.create_highlight__matchhighlightreply\":{\"permitted\":true},\"matches.create_highlight__showcasehighlight\":{\"permitted\":true},\"matches.update_highlight\":{\"permitted\":false,\"reason\":[\"permission\"]},\"matches.destroy_highlight\":{\"permitted\":false,\"reason\":[\"permission\"]},\"matches.download_highlight\":{\"permitted\":true}},\"privacy\":\"public\",\"reply_count\":0,\"team_association\":\"opponent\",\"thumbnail\":\"htt"
+  },
+  {
+    "url": "https://d3g8j1j1rf6msg.cloudfront.net/api/v2/69e1b8c2-1dfa-439a-a541-c88848c04703/player-tracking?start=0",
+    "status": 200,
+    "size": 48681,
+    "preview": "{\"0.39\":[[-1,6,0.6622,0.8096,-1,76,-1,0],[0,1,0.3235,0.2761,39,-1,0,0],[1,1,0.1822,0.5817,6,-1,0,0],[2,3,0.6042,0.398,33,-1,0,0],[3,1,0.1938,0.5824,4,-1,0,0],[4,1,0.4963,0.7314,5,-1,0,0],[5,3,0.6759,0.548,3,-1,0,0],[6,3,0.816,0.5755,15,-1,0,0],[7,3,0.5758,0.0578,10,-1,0,0],[8,1,0.5518,0.0702,13,-1,0,0],[9,3,0.9763,0.5872,9,-1,0,0],[10,2,0.9854,0.5773,-1,-1,0,0],[11,3,0.944,0.1888,34,-1,0,0],[12,3,0.9692,0.6105,23,-1,0,0],[13,3,0.66,0.8373,-1,-1,0,0],[14,4,0.5732,0.0829,-1,-1,-1,0]],\"0.79\":[[-1,6"
+  },
+  {
+    "url": "https://dt3kfuz4eo879.cloudfront.net/recordings/69e1b8c2-1dfa-439a-a541-c88848c04703/player-moments?start=180&end=2580&jersey=7&side=left",
+    "status": 200,
+    "size": 20919,
+    "preview": "{\"jersey\":7,\"category\":1,\"moments\":[{\"start\":2043.2,\"end\":2579.6,\"tracks\":[[2043.2,1.9,-11,49.6],[2043.6,2.2,-11,40.7],[2044,2.6,-11.7,33.9],[2044.4,2.6,-11.7,27.2],[2044.8,2.3,-11,19.8],[2045.2,1.6,-10.2,13.4],[2045.6,0.6,-9.9,9.4],[2046,0.1,-10.3,8.3],[2046.4,0.3,-10.9,7.5],[2046.8,1.4,-11,7.8],[2047.2,2.8,-10.9,7.1],[2047.6,4.1,-11.4,7.4],[2048,5.3,-12.3,7],[2048.4,6.2,-13.4,5.3],[2048.8,7.2,-14.5,6.4],[2049.2,8.5,-15.3,7.1],[2049.6,9.7,-16,7.6],[2050,11.6,-15.8,6.6],[2050.4,13.6,-16.2,6.3],["
+  },
+  {
+    "url": "https://dt3kfuz4eo879.cloudfront.net/recordings/69e1b8c2-1dfa-439a-a541-c88848c04703/player-moments?start=3118&end=5552&jersey=7&side=right",
+    "status": 200,
+    "size": 38,
+    "preview": "{\"jersey\":7,\"category\":5,\"moments\":[]}"
+  },
+  {
+    "url": "https://d3g8j1j1rf6msg.cloudfront.net/api/v2/69e1b8c2-1dfa-439a-a541-c88848c04703/player-tracking?start=2043",
+    "status": 200,
+    "size": 68358,
+    "preview": "{\"2043.19\":[[-1,6,0.0545,0.4849,-1,95,-1,0],[2,3,0.3282,0.5049,33,6969,2.23,2],[8,1,0.4133,0.5625,13,3808,2.57,1],[11,3,0.5183,0.2852,34,4324,3.03,2],[14,4,0.2984,1.0173,-1,-1,-1,0],[17,4,0.4668,0.5086,-1,-1,-1,0],[20,1,0.3708,0.5195,28,3740,1.9,1],[26,0,0.0495,0.4903,18,2083,10.3,1],[43,1,0.435,0.3681,34,4328,2.44,1],[45,3,0.4734,0.3827,3,3968,1.5,2],[49,3,0.4684,0.5766,15,3720,2.36,2],[52,4,0.6018,0.0019,-1,-1,-1,0],[53,3,0.5611,0.5429,9,3470,2.38,2],[60,1,0.4125,0.8136,8,4309,4.87,1],[76,1,0."
+  }
+]
